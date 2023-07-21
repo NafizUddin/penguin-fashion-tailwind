@@ -1,13 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-bebas{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+
+    </style>
 </head>
+
 <body>
-    <h1>Hello World</h1>
-    <h3>Welcome to tailwind</h3>
+    <header>
+        <nav class="flex flex-col justify-center h-32 px-10 md:flex-row md:justify-between md:items-center lg:items-start">
+            <div>
+                <img class="w-80 mb-3 md:pt-0 md:mb-0 lg:pt-10" src="icons/logo.png" alt="">
+            </div>
+            <div class="hidden md:hidden lg:block" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="61" viewBox="0 0 150 61" fill="none">
+                    <circle cx="2.08346" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="83.1018" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="2.08346" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="83.1018" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="2.08346" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="83.1018" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="2.08346" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="83.1018" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="18.2871" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="99.3055" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="18.2871" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="99.3055" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="18.2871" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="99.3055" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="18.2871" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="99.3055" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="34.4908" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="115.509" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="34.4908" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="115.509" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="34.4908" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="115.509" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="34.4908" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="115.509" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="50.6945" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="131.713" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="50.6945" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="131.713" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="50.6945" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="131.713" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="50.6945" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="131.713" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="66.8981" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="147.916" cy="10.3054" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="66.8981" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="147.916" cy="26.5092" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="66.8981" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="147.916" cy="42.7129" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="66.8981" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+                    <circle cx="147.916" cy="58.9165" r="2.08346" fill="#FFE2AA"/>
+                  </svg>
+            </div>
+            <div>
+                <ul class="list-none flex justify-around gap-4 font-roboto leading-6 lg:pt-12 lg:text-xl lg:gap-8 lg:font-medium">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div></div>
+        </section>
+    </header>
+    <main>
+
+    </main>
+
 </body>
+
 </html>
