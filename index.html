@@ -33,11 +33,18 @@
             background: #FFF;
             box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
         }
+
+        .icon-pic{
+            width: 150px;
+            margin: 0px auto;
+        }
+
     </style>
 </head>
 
 <body class="banner-back">
     <header>
+        <!-- Navbar section -->
         <nav
             class="flex flex-col justify-center h-32 px-10 md:flex-row md:justify-between md:items-center lg:items-start">
             <div>
@@ -98,6 +105,7 @@
             </div>
         </nav>
 
+        <!-- Banner section -->
         <section class="flex flex-col px-10 my-6 md:flex-row md:items-center md:mt-0 lg:justify-between lg:px-24">
             <div>
                 <h1 class="text-5xl leading-tight font-bebas md:text-6xl lg:text-8xl"><span class="text-[#FABE4C]">Be
@@ -219,6 +227,46 @@
             
         </div>
 
+
+        <!-- features section -->
+        <div class="w-11/12 m-auto my-24 lg:flex lg:flex-row-reverse lg:justify-between lg:gap-10 lg:items-center">
+            <div class="lg:w-1/2">
+                <img src="images/shopping.png" alt="" class="mb-12">
+            </div>
+            
+            <div class="flex flex-col gap-10 lg:gap-4">
+                <!-- 1st feature -->
+                <div class="text-center cart-box py-5 lg:flex lg:items-center lg:text-left lg:gap-4 lg:px-5">
+                    <img src="icons/house.png" alt="" class="icon-pic lg:w-28">
+                    <div>
+                        <h1 class="text-[#363958] font-roboto text-2xl font-bold">Find the Perfect Fit</h1>
+                        <p class="text-[#3E3E3E] font-roboto font-normal leading-7">Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+
+                <!-- 2nd Feature -->
+                <div class="text-center cart-box py-5 lg:flex lg:items-center lg:text-left lg:gap-4 lg:px-5">
+                    <img src="icons/box.png" alt="" class="icon-pic lg:w-28">
+                    <div>
+                        <h1 class="text-[#363958] font-roboto text-2xl font-bold">Free Exchanges</h1>
+                        <p class="text-[#3E3E3E] font-roboto font-normal leading-7">One of the many reasons you can shop
+                            with peace of mind.</p>
+                    </div>
+                </div>
+
+                <!-- 3rd feature -->
+                <div class="text-center cart-box py-5 lg:flex lg:items-center lg:text-left lg:gap-4 lg:px-5">
+                    <img src="icons/question.png" alt="" class="icon-pic lg:w-28">
+                    <div>
+                        <h1 class="text-[#363958] font-roboto text-2xl font-bold">Contact Our Seller</h1>
+                        <p class="text-[#3E3E3E] font-roboto font-normal leading-7">They are here to help you. That's quite 
+                            literally what we pay them for.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </main>
 
 </body>
